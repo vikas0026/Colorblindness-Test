@@ -1,0 +1,105 @@
+body{
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+}
+
+
+p{
+    font-size: larger;
+    margin: 15px;
+
+}
+.menubar{
+    display: inline-block;
+    margin-left: 5%;
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(94, 94, 94);
+}
+a{
+    text-decoration:  none;
+    color: rgb(7, 104, 239);
+}
+.box2 h1,.box1 h2{
+    color: gray;
+    margin: 5px;
+    
+}
+.box2,.box1{
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(210, 209, 209);
+    border:none;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+
+}
+.box3 h1{
+    width: 90%;
+    margin-left: 5%;margin-right: 5%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.testbox{
+    width: 280px;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(235, 233, 233);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 40px;
+
+}
+
+.ans{
+    width: 90%;
+    height: 40px;
+     border: none;
+     border-radius: 5px;
+     font-size: large;
+}
+.box4{
+    margin-left: 5%;
+}
+.result{
+    border: 3px solid blue;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
+.visi{
+    visibility: visible;
+}
+#fav{
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    margin: 0%;
+}
+#title{
+    display: inline-block;
+}
+
+
+@media (max-width:1100px){
+    .testbox{
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+    img{
+        width: 100px;
+        height:  100px;
+       
+    }
+}
